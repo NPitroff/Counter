@@ -6,6 +6,8 @@ let addNumber = document.querySelector(".add");
 let subNumber = document.querySelector(".sub");
 // variable to hold the count
 let count = 0;
+// calling the update function to show current number
+updateCount();
 
 // event listener to add
 addNumber.addEventListener("click", () =>{
