@@ -10,8 +10,15 @@ let count = 0;
 // event listener to add
 addNumber.addEventListener("click", () =>{
   count++;
+  updateCount();
 });
 // event listener to subtract
 subNumber.addEventListener("click", () =>{
   count--;
+  updateCount();
 });
+
+// function to change the count in the HTML
+function updateCount(){
+  numberDisplay.innerHTML = count;
+};
