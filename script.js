@@ -24,3 +24,7 @@ subNumber.addEventListener("click", () =>{
 function updateCount(){
   numberDisplay.innerHTML = count;
 };
+
+// generating a span element
+const circleSpan = document.createElement("span");
+document.body.appendChild(span);
