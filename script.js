@@ -27,4 +27,6 @@ function updateCount(){
 
 // generating a span element
 const circleSpan = document.createElement("span");
+// giving the span a class of "Dot"
+span.className = "dot";
 document.body.appendChild(span);
